@@ -11,8 +11,8 @@ function Sidebar (prop)
       <div className="center">
       <label>Input</label>
       <MonacoEditor
-        width="300"
-        height="200"
+        width="500"
+        height="300"
         language="javascript"
         theme="vs-dark"
         value={prop.input}
@@ -22,8 +22,8 @@ function Sidebar (prop)
       />
       <lable>Output</lable>
       <MonacoEditor
-        width="300"
-        height="150"
+        width="500"
+        height="300"
         language="javascript"
         theme="vs-dark"
         value={prop.result}

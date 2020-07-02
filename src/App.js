@@ -104,7 +104,7 @@ class App extends React.Component {
     };
 
     return (
-      <div style={{background:"#9e9a90"}}>
+      <div style={{background:"#9e9a90",}}>
       <button type="button" className="btn btn-outline-primary btn-sm mr-1" onClick={this.runCode} disabled={this.state.disableAll} >Run</button>
       <button type="button" className="btn btn-outline-success btn-sm mr-1" onClick={this.saveCode} disabled={this.state.disableAll}>Save</button>
       <div className="btn-group">
@@ -122,8 +122,8 @@ class App extends React.Component {
         
       <MonacoEditor
       
-        width="500"
-        height="400"
+        width="600"
+        height="670"
         language="javascript"
         theme="vs-dark"
         value={code}
